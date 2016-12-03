@@ -10,6 +10,7 @@
     <bean id="usbWriter" class="c.USBWriter"/>
 
     <bean id="business" class="c.Business">
-        <constructor-arg ref="usbWriter"/>
+        <!--<constructor-arg ref="floppyWriter"/>-->
+        <property name="deviceWriter" ref="floppyWriter"/>
     </bean>
 </beans>

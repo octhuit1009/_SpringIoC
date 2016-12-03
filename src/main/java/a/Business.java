@@ -1,7 +1,9 @@
 package a;
 
 /**
- * 高层应用类
+ * 高层应用类强烈依赖于底层模块类
+ * 底层控制高层
+ * 强耦合
  * Created by Administrator on 2016/12/3.
  */
 public class Business {

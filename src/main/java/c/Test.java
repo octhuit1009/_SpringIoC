@@ -9,8 +9,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Test {
     public static void main(String[] args) {
-//        Business business = new Business(new FloppyWriter());
-//        Business business = new Business(new USBWriter());
+
+//        Business business = new Business();
+//        business.setDeviceWriter(new USBWriter());
 //        business.saveData();
 
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
